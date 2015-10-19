@@ -60,14 +60,12 @@
 		5D8113BD1BC724D9007A56D2 /* Pitch Perfect */ = {
 			isa = PBXGroup;
 			children = (
-				5D8113BE1BC724D9007A56D2 /* AppDelegate.swift */,
 				5D8113C01BC724D9007A56D2 /* RecordSoundsViewController.swift */,
 				5DE3F7F61BC7307300DA1206 /* PlaySoundsViewController.swift */,
 				5DE3F7FB1BC73CDF00DA1206 /* RecordedAudio.swift */,
 				5D8113C21BC724D9007A56D2 /* Main.storyboard */,
 				5D8113C51BC724D9007A56D2 /* Assets.xcassets */,
 				5DE3F7FA1BC7325900DA1206 /* Supporting Files */,
-				5D8113C71BC724D9007A56D2 /* LaunchScreen.storyboard */,
 			);
 			path = "Pitch Perfect";
 			sourceTree = "<group>";
@@ -75,6 +73,8 @@
 		5DE3F7FA1BC7325900DA1206 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5D8113C71BC724D9007A56D2 /* LaunchScreen.storyboard */,
+				5D8113BE1BC724D9007A56D2 /* AppDelegate.swift */,
 				5DE3F7F81BC7324600DA1206 /* movie_quote.mp3 */,
 				5D8113CA1BC724D9007A56D2 /* Info.plist */,
 			);

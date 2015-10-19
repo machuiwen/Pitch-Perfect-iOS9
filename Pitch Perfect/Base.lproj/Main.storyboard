@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="OD6-7x-huG">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -14,6 +15,7 @@
                         <viewControllerLayoutGuide type="bottom" id="9IO-cG-5sy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="JMi-Lm-WNO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gci-nS-ew2">
@@ -75,16 +77,16 @@
                                 <exclude reference="e4f-ru-WMC"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="EVM-EY-ybY"/>
-                                <exclude reference="Y5b-rQ-ceD"/>
+                                <exclude reference="XXT-NW-JEe"/>
                                 <exclude reference="WfM-oG-m5A"/>
                                 <exclude reference="Z8N-iU-6Ox"/>
-                                <exclude reference="OsL-Mb-86F"/>
                                 <exclude reference="ycE-TH-aLO"/>
+                                <exclude reference="EVM-EY-ybY"/>
+                                <exclude reference="Y5b-rQ-ceD"/>
+                                <exclude reference="OsL-Mb-86F"/>
                                 <exclude reference="P49-dh-Zzi"/>
                                 <exclude reference="k64-QI-MD0"/>
                                 <exclude reference="nK1-RU-2kz"/>
-                                <exclude reference="XXT-NW-JEe"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -96,16 +98,16 @@
                                 <include reference="e4f-ru-WMC"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="EVM-EY-ybY"/>
-                                <include reference="Y5b-rQ-ceD"/>
+                                <include reference="XXT-NW-JEe"/>
                                 <include reference="WfM-oG-m5A"/>
                                 <include reference="Z8N-iU-6Ox"/>
-                                <include reference="OsL-Mb-86F"/>
                                 <include reference="ycE-TH-aLO"/>
+                                <include reference="EVM-EY-ybY"/>
+                                <include reference="Y5b-rQ-ceD"/>
+                                <include reference="OsL-Mb-86F"/>
                                 <include reference="P49-dh-Zzi"/>
                                 <include reference="k64-QI-MD0"/>
                                 <include reference="nK1-RU-2kz"/>
-                                <include reference="XXT-NW-JEe"/>
                             </mask>
                         </variation>
                     </view>
