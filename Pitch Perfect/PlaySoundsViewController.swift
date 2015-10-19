@@ -16,7 +16,6 @@ class PlaySoundsViewController: UIViewController {
     
     var audioEngine: AVAudioEngine!
     var audioFile: AVAudioFile!
-    let session: AVAudioSession = AVAudioSession.sharedInstance()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +25,7 @@ class PlaySoundsViewController: UIViewController {
         
         audioEngine = AVAudioEngine()
         audioFile = try! AVAudioFile(forReading: receivedAudio.filePathUrl)
+        let session: AVAudioSession = AVAudioSession.sharedInstance()
         try! session.overrideOutputAudioPort(AVAudioSessionPortOverride.Speaker)
     }
     
